@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http//www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm Contact </title>
+
+</head>
+<body>
+        <p th:inline="text">Contact First Name:[[${contact.firstName}]].<br />
+            Contact Last Name :[[${contact.lastName}]].<br />
+            Contact Email: [[${contact.emailAddress}]].<br />
+            Contact Phone Number: [[${contact.phoneNumber}]].<br />
+            Address: [[${contact.address}]].<br />
+            Contact City: [[${contact.city}]].<br />
+            Contact State: [[${contact.state}]].<br />
+            Contact Phone Number: [[${contact.phoneNumber}]].<br />
+            Contact Zipcode: [[${contact.zipcode}]].<br />
+        </p>
+
+
+</body>
+</html>
+<!--////personform.html
+    //
+    //<!DOCTYPE html>
+    //
+    //<html = “en” xmlns=“www.thymeleaf.org”>
+    //
+    //<head>
+    //
+    //<meta charset=“UTF-8”>
+    //
+    //<title>Person Form</title>
+    //
+    //</head>
+    //
+    //
+    //
+    //<body>
+    //
+    //<form th:action=“@{/person}” th:object=“${employee} method=“post”>
+    //
+    //
+    //
+    //First Name: <input type=“text” th:field=“{firstName}”/>
+    //
+    //Last Name: <input type=“text” th:field=“{LastName}”/>
+    //
+    //Email: <input type=“text” th:field=“*{email}”/>
+    //
+    //From Reynaldo Aponte to Me:  (Privately) 04:12 PM
+    //Phone Number: [[$person.phone]]
+    //
+    //</p>
+    //
+    //
+    //
+    //</body>
+    //
+    //
+    //
+    //</body>
+    //
+    //</html>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
